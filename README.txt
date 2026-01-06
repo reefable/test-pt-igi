@@ -1,13 +1,12 @@
-Berikut contoh **kata sambutan singkat** untuk README project tersebut:
-
----
-
 ## Kata Sambutan
 
 Selamat datang di project **Simple Order**.
 Project ini dibuat sebagai bagian dari proses penyelesaian test **“Simple Order”** di **PT. IGI**.
 
 Aplikasi ini dikembangkan dengan menerapkan arsitektur **MVC (Model–View–Controller)** untuk memisahkan logika bisnis, tampilan, dan pengelolaan data, sehingga kode lebih terstruktur, mudah dipahami, dan mudah dikembangkan.
+
+Demo user : admin
+Kata sandi: password123
 
 Terima kasih telah meluangkan waktu untuk meninjau project ini. Semoga dapat memberikan gambaran yang jelas mengenai implementasi dan alur kerja aplikasi.
 
