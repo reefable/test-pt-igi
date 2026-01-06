@@ -30,10 +30,10 @@ services:
     ports:
       - "3000:3000"
     environment:
-      DB_HOST: "db"
-      DB_USER: "user"
-      DB_PASSWORD: "password"
-      DB_NAME: "simple_order"
+      DB_HOST: db
+      DB_USER: root
+      DB_PASSWORD: root
+      DB_NAME: simple_order
     depends_on:
       db:
         condition: service_healthy
