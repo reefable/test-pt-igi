@@ -3,7 +3,7 @@ import { useAuthStore } from '../stores/authStore';
 
 const api = axios.create({
   // In Docker, browser hits localhost:3000. In prod, use relative path /api via Nginx.
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:3000/api',
+  baseURL: import.meta.env.VITE_API_URL || '/api',
   headers: {
     'Content-Type': 'application/json',
   },
