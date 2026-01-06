@@ -21,6 +21,7 @@ Terima kasih telah meluangkan waktu untuk meninjau project ini. Semoga dapat mem
 
 ### Directory Structure:
 
+```
 simple-orders-app/
 ├── backend/
 │   ├── server/
@@ -43,3 +44,4 @@ simple-orders-app/
 ├── database/
 │   └── init.sql            # SQL schema initialization
 └── docker-compose.yml
+```
