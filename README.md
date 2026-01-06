@@ -21,7 +21,7 @@ Terima kasih telah meluangkan waktu untuk meninjau project ini. Semoga dapat mem
 
 ### Directory Structure:
 
->simple-orders-app/
+simple-orders-app/
 ├── backend/
 │   ├── server/
 │   │   ├── config/         # DB config, environment variables
