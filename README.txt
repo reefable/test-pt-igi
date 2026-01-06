@@ -16,7 +16,7 @@ Terima kasih telah meluangkan waktu untuk meninjau project ini. Semoga dapat mem
 
 simple-orders-app/
 ├── backend/
-│   ├── src/
+│   ├── server/
 │   │   ├── config/         # DB config, environment variables
 │   │   ├── controllers/    # Request logic
 │   │   ├── middlewares/    # Auth, Validation logic
