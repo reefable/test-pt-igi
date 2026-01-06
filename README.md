@@ -1,27 +1,34 @@
-## Kata Sambutan
+# Kata Sambutan
 
 Selamat datang di project **Simple Order**.
 Project ini dibuat sebagai bagian dari proses penyelesaian test **“Simple Order”** di **PT. IGI**.
 
 Aplikasi ini dikembangkan dengan menerapkan arsitektur **MVC (Model–View–Controller)** untuk memisahkan logika bisnis, tampilan, dan pengelolaan data, sehingga kode lebih terstruktur, mudah dipahami, dan mudah dikembangkan.
 
-Demo user : admin
-Kata sandi: password123
+- For Development Test
+	> npm install && npm run dev
+
+- Production
+	> docker-compose up
+
+- Login Information
+	> user : admin
+	> pass : password123
 
 Terima kasih telah meluangkan waktu untuk meninjau project ini. Semoga dapat memberikan gambaran yang jelas mengenai implementasi dan alur kerja aplikasi.
 
 ---
 
-## Directory Structure:
+### Directory Structure:
 
-simple-orders-app/
+>simple-orders-app/
 ├── backend/
 │   ├── server/
 │   │   ├── config/         # DB config, environment variables
 │   │   ├── controllers/    # Request logic
 │   │   ├── middlewares/    # Auth, Validation logic
 │   │   ├── routes/         # API Routes definitions
-│   │   ├── services/       # Business logic (interacting with DB)
+│   │   ├── utils/       # Business logic (interacting with DB)
 │   │   └── index.js        # Entry point
 │   ├── Dockerfile
 │   └── package.json
